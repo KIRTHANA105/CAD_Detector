@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+venv/
+ENV/
+
+# Uploads and models (keep tracked placeholders only)
+ecg_backend/uploads/*
+!ecg_backend/uploads/.gitkeep
+
+ecg_backend/model/*
+!ecg_backend/model/cad_vs_norm_cnn_lstm_feat_improved.keras
+!ecg_backend/model/tabular_scaler_improved.joblib
+
+# IDE
+.vscode/
+.idea/
